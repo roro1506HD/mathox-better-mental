@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "ovh.roro.mathoxmental.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "world.gen.feature.StructureFeatureMixin",
+    "world.gen.feature.StructuresConfigMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

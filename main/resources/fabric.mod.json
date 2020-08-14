@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mathox-better-mental",
+  "version": "${version}",
+  "name": "MathoX Better Mental",
+  "description": "Ouais Mental c'est un mot anglais",
+  "authors": [
+    "roro1506HD"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mathox-better-mental/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ovh.roro.mathoxmental.MathoXBetterMental"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "mathox-better-mental.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}
